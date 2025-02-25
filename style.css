@@ -225,7 +225,7 @@ footer {
 }
 
 .footer-text {
-    background-image: url('..HeaderBackGround.jpg'); /* Adjust the path to your image */
+    background-image: url('HeaderBackGround.jpg'); /* Adjust the path to your image */
     background-size: cover;
     background-position: center;
     font-family: 'Poppins', sans-serif;
