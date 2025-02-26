@@ -267,33 +267,23 @@ footer {
 }
 
 /* Media Queries for Mobile Devices */
-@media (max-width: 441px) {
+@media (max-width: 598px) {
 
 
-    .content {
-        margin-top: 219px; /* Adjust based on header and nav height */
-        height: calc(100vh - 120px - 40px); /* Adjust based on header, nav, and footer height */
-        overflow-y: auto; /* Allow vertical scrolling */
-        overflow-x: auto; /* Allow horizontal scrolling */
-        z-index: 1000; /* Ensure content is below header and nav */
-        padding-bottom: 100px; /* Add padding to avoid overflow through footer */
-        margin-bottom: 50px; /* Add margin to avoid overlapping footer */
-       
+
+    #contactContent iframe {
+        height: 100vh; /* Adjust height for mobile view */
+    }
 
 }
 
-@media (max-width: 441px) {
-    .content {
-        margin-top: 217px; /* Adjust based on header and nav height */
-        height: calc(100vh - 120px - 40px); /* Adjust based on header, nav, and footer height */
-        overflow-y: auto; /* Allow vertical scrolling */
-        overflow-x: auto; /* Allow horizontal scrolling */
-        z-index: 1000; /* Ensure content is below header and nav */
-        padding-bottom: 70px; /* Add padding to avoid overflow through footer */
-        margin-bottom: 50px; /* Add margin to avoid overlapping footer */
-    }  
+/* Media Queries for Mobile Devices */
 
-}
+
+@media (max-width: 441px) {
+ 
+
+
     #contactContent iframe {
         height: 100vh; /* Adjust height for mobile view */
     }
