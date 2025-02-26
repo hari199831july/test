@@ -42,6 +42,7 @@ body{
     z-index: 1001; /* Ensure nav is below header */
     padding: 10px;
     position: fixed;
+    margin-left: 38px;
 }
 
 nav ul {
