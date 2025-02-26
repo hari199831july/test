@@ -31,7 +31,7 @@ body{
 }
 
 .navClassHeader {
-    top: 128px; /* Adjust based on header height */
+    top: 122px; /* Adjust based on header height */
     width: 100%;
     background-color: #fff;
     z-index: 1001; /* Ensure nav is below header */
