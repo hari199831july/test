@@ -197,7 +197,7 @@ nav ul li a.selected::after {
 
 
 .content {
-    margin-top: 120px; /* Height of header + nav */
+    margin-top: 16vh; /* Height of header + nav */
     padding: 20px;
     width: 100%;
     /* max-width: 800px; */
