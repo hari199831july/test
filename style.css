@@ -245,14 +245,7 @@ footer {
 /* Media Queries for Mobile Devices */
 @media (max-width: 598px) {
 
-    .navClassHeader {
-        top: 174px; /* Adjust based on header height */
-        width: 100%;
-        background-color: #fff;
-        z-index: 1001; /* Ensure nav is below header */
-        padding: 10px;
-        position: fixed;
-    }
+
     .content {
         margin-top: 174px;  /* Adjust based on header and nav height */
         height: calc(100vh - 120px - 40px); /* Adjust based on header, nav, and footer height */
@@ -271,14 +264,7 @@ footer {
 /* Media Queries for Mobile Devices */
 @media (max-width: 441px) {
 
-    .navClassHeader {
-        top: 217px; /* Adjust based on header height */
-        width: 100%;
-        background-color: #fff;
-        z-index: 1001; /* Ensure nav is below header */
-        padding: 10px;
-        position: fixed;
-    }
+
     .content {
         margin-top: 219px; /* Adjust based on header and nav height */
         height: calc(100vh - 120px - 40px); /* Adjust based on header, nav, and footer height */
