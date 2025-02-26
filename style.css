@@ -206,6 +206,8 @@ nav ul li a.selected::after {
     margin-right: auto;
     box-sizing: border-box;
     min-height: calc(100vh - 70px); /* Adjust based on header/nav/footer */
+    /*max-height: calc(100vh - 20vh);  Adjust based on header/nav/footer */
+
     overflow-y: auto; /* Allow vertical scrolling */
     position: relative; /* Ensure content is scrollable */
     z-index: 1000; /* Ensure content is below header and nav */
