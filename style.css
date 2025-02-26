@@ -5,7 +5,7 @@ body{
 
 .headerClass {
     height: 17vh; /* Header takes up 15% of the viewport height */
-    background-image: url('../imageFiles/HeaderBackGround.jpg'); /* Adjust the path to your image */
+    background-image: url('HeaderBackGround.jpg'); /* Adjust the path to your image */
     background-size: cover;
     background-position: center;
     padding: 0px 0; /* Adjusted padding */
